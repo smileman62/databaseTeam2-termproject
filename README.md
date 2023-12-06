@@ -19,5 +19,4 @@ If you contact with me, Please reply to the following address.
 - https://carpe-diem0.tistory.com/1
 - https://repnam.kr/php%EC%97%90%EC%84%9C-mysql%EC%BF%BC%EB%A6%AC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/
 
-Thanks to you, We were able to get to know more about php and web servers, get the opportunity to build twitter by using them in term project, and my team members can also improve their skills.
-Once again, I would like to express my gratitude here.
+> Thanks to you, We were able to get to know more about php and web servers, get the opportunity to build twitter by using them in term project, and my team members can also improve their skills. Once again, I would like to express my gratitude here.
