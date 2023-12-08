@@ -1,0 +1,91 @@
+.tweet_del{
+    display: flex;
+    justify-content: felx-end;
+}
+
+.tweet_box{
+    padding: 20px 15px 20px 0;
+    border-bottom: 1px solid var(--twitter-background);
+    display: flex;
+}
+
+.tweet_body{
+    width: 100%;
+}
+
+.tweet_add{
+    border-bottom: 10px solid var(--twitter-background);
+}
+
+.tweet_headr{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.tweet_name{
+    font-weight: 700;
+}
+
+.tweet_username, .tweet_date{
+    color: rgb(101,119,134);
+    font-size: 15px;
+}
+
+.tweet_header p{
+    margin-right: 5px;
+}
+
+.tweet_left img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid var(--twitter-background);
+    margin: 0 20px;
+}
+
+.tweet_icons{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.tweet_icons i{
+    color: #c6cacc;
+}
+
+.tweet_icons-wrapper{
+    display: flex;
+}
+
+.tweet_icons-add{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.button_tweet{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background: var(--twitter-color);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    width: 50%;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button_tweet:hover{
+    background: #4cade9;
+}
+
+.tweet_icons-add i{
+    color: var(--twitter-color);
+    font-size: 23px;
+    margin-right: 15px;
+}

@@ -1,0 +1,86 @@
+.sidebar_tweet{
+    background-color: var(--twitter-color);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sidebar{
+    position: sticky;
+    top:0;
+    height: 100vh;
+}
+
+.sidebar ul li{
+    text-decoration: none;
+    padding: 15px 60px;
+    color: #000;
+    font-weight: 700;
+    font-size: 19px;
+    align-items: center;
+    display: flex;
+}
+
+.sidebar ul li i{
+    font-size: 24px;
+    width: 25px;
+}
+
+.sidebar ul li span{
+    margin-left: 15px;
+}
+
+.user-info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px 40px;
+    display: flex;
+}
+
+.user-profile{
+    width: 100px;
+    height: 60px;
+    padding: 0 30px 0 0;
+}
+
+.user-profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid var(--twitter-background);
+    margin: 20px 20px;
+}
+
+.name-and-id{
+    padding: 20px 0px;
+    width: 100px;
+}
+
+.name-and-id p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.logout-box i{
+    font-size: 35px;
+    padding: 30px 0 30px 30px;
+}
+
+.logout-btn{
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.active_menu i, .active_menu span{
+    color: var(--twitter-color);
+}

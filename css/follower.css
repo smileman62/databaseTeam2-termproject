@@ -1,0 +1,156 @@
+@import url('https://kit.fontawesome.com/94747f9244.js');
+@import url('https://fonts.googleapis.com/css2?family-Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+  
+  .img {
+    width : 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left : 5px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .back-arrow {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  #fa-arrow-left {
+    color: blue;
+    filter: brightness(70%);
+    font-size: 40px;
+    cursor: pointer;
+    padding: 10px 20px 10px 10px;
+}
+
+  .user-info .username {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .user-handle {
+    color: #555;
+  }
+  
+  .tabs {
+    display: flex;
+    background: #f9f9f9;
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab.selected {
+    border-bottom: 2px solid blue;
+    font-weight: bold;
+  }
+  
+  .followeing-list {
+    padding: 10px;
+  }
+  
+  .following {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .following-info {
+    display: flex;
+    margin-top : 2px;
+  }
+  
+  .following-details {
+    margin-left: 10px;
+  }
+  
+  .following-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .verified-icon {
+    font-size: 16px;
+    color: gold;
+  }
+  
+  .following-handle {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .following-bio {
+    color: #333;
+    font-size: 12px;
+  }
+  
+  .following-button {
+    padding: 5px 10px;
+    background: rgb(243, 240, 240);
+    border : 1px black;
+    border-radius: 15px;
+    margin-right : 10px
+  }
+
+  .follower-list {
+    padding: 10px;
+  }
+  
+  .follower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .follower-info {
+    display: flex;
+    margin-top : 2px;
+  }
+  
+  .follower-details {
+    margin-left: 10px;
+  }
+  
+  .follower-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .follower-handle {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .follower-bio {
+    color: #333;
+    font-size: 12px;
+  }
+  
+  .follower-button {
+    padding: 5px 10px;
+    background: rgb(28, 27, 27);
+    border-radius: 15px;
+    margin-right : 10px;
+    color: white;
+  }
